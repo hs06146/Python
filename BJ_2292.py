@@ -3,6 +3,7 @@ num = int(input())
 first = 1
 room = 6
 count = 1
+#입력 받은 값이 이전 방보다 클 경우
 while num > first:
     count += 1
     first += room
