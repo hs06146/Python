@@ -1,5 +1,5 @@
 T = int(input())
-
+#첫째 줄에 테스트 데이터 개수 입력
 for i in range (T):
     H, W, N = map(int, input().split())
     room_num = N//H+1 #방 호수
